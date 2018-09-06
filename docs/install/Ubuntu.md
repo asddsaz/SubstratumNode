@@ -3,7 +3,7 @@ Ubuntu Install.md
 
 1. Install gdebi app:
 
-sudo apt install gdebi
+'sudo apt install gdebi'
 2. Download Substratum Node 0.4.0 GUI version for Ubuntu
 
 Go to the official page https://substratum.net/open-beta
@@ -26,16 +26,16 @@ You can check if port 53 is occupied by running command ss -lntup
 To disable the service occupying port 53 on thr latest Ubuntu 18.04, do the following:
 1. Run command
 
-sudo nano /etc/systemd/resolved.conf
+'sudo nano /etc/systemd/resolved.conf'
 
-Append a new line in the text file - DNSStubListener=no
+Append a new line in the text file '- DNSStubListener=no'
 
 Press key Ctrl-O, and then key ENTER to save the file, and then key Ctrl-X to exit.
 2. Run commands
 
-sudo systemctl daemon-reload
+'sudo systemctl daemon-reload
 
-sudo systemctl restart systemd-resolved.service
+sudo systemctl restart systemd-resolved.service'
 Finally,
 
 run Substratum Node from app launcher
