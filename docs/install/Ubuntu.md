@@ -41,3 +41,5 @@ sudo systemctl restart systemd-resolved.service
 Finally,
 
 run Substratum Node from app launcher
+
+Source: https://www.reddit.com/r/SubstratumNetwork/comments/9d8etd/why_doesnt_substratumnet_work_with_my_os/e5i2az6
