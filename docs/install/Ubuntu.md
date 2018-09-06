@@ -4,6 +4,7 @@ Ubuntu Install.md
 1. Install gdebi app:
 
 ```sudo apt install gdebi```
+
 2. Download Substratum Node 0.4.0 GUI version for Ubuntu
 
 Go to the official page https://substratum.net/open-beta
